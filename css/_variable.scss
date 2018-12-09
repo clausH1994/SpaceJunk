@@ -1,0 +1,14 @@
+@function colors($color-name) {
+  @return map-get($color,$color-name);
+}
+
+$color:(
+        fontcolor1: (
+                #19343F
+                ),
+        fontcolor2: (
+                #ffffff
+        ),
+);
+
+$font: 'Montserrat', sans-serif;

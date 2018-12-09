@@ -3,9 +3,79 @@
 <head>
     <meta charset="UTF-8">
     <title>SpaceJunk</title>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+
 </head>
 <body>
+    <header id="myHeader" class=header>
+        <nav class="transparent" id="navbar">
+                <a href="#" class="brand-logo">
+                <div id="logo">
+                </div>
+                </a>
+            <ul id="nav-mobile" class="right hide-on-med-and-down ulmargin">
+                <li><a href="#section1">About</a></li>
+                <li><a href="#section2">Home</a></li>
+                <li><a href="#section3">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <div id="section1" class="parallax-container section scrollspy">
+            <div class="parallax"><img src="img/bg1.png"></div>
+        </div>
+
+        <div id="section2" class="row container section scrollspy">
+            <h2 class="header">Parallax</h2>
+            <p class="grey-text text-darken-3 lighten-3">Parallax is an effect where the background content or image in this case, is moved at a different speed than the foreground content while scrolling.</p>
+        </div>
+
+        <div id="section3" class="parallax-container section scrollspy">
+            <div class="parallax"><img src="img/bg2.png"></div>
+        </div>
+
+    </main>
+    <footer></footer>
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+
+    <script>
+        // When the user scrolls the page, execute myFunction
+        window.onscroll = function() {myFunction()};
+
+
+        // Get the header
+        var header = document.getElementById("myHeader");
+
+        // Get the offset position of the navbar
+        var sticky = header.offsetTop;
+
+        // Add the sticky class to the header when you reach its scroll position. Remove "sticky" when you leave the scroll position
+        function myFunction() {
+            if (window.pageYOffset > sticky) {
+                header.classList.add("sticky");
+            } else {
+                header.classList.remove("sticky");
+            }
+        }
+    </script>
+
+    <script>
+        $(document).ready(function(){
+            $('.parallax').parallax();
+        });
+    </script>
+
+   <script> $(document).ready(function(){
+    $('.scrollspy').scrollSpy();
+    })
+   </script>
+
 
 </body>
 </html>
