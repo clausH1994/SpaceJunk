@@ -1,0 +1,56 @@
+@import "variable";
+
+footer
+{
+  grid-column: 1/13;
+  grid-row: 3/4;
+
+
+}
+
+.page-footer
+{
+  background-image: url("../img/bg1.jpg");
+  background-size: cover;
+  background-repeat:  no-repeat;
+}
+
+#textfooter
+{
+  font-family: $font;
+  color: colors(fc1);
+}
+
+#rowmargin
+{
+  margin-left: -10rem;
+}
+
+#imgplace
+{
+  display: flex;
+}
+
+.icon
+{
+  width: 50px;
+  height: 50px;
+  margin-right: 15px;
+}
+
+@media only screen and (max-width: 1000px)
+{
+  #rowmargin
+  {
+    margin-left: 0.75rem;
+  }
+  .icon
+  {
+    width: 50px;
+    height: 50px;
+    margin-right: 5pxs;
+  }
+  .row .col.s12 {
+    width: 25% !important;
+  }
+}

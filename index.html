@@ -9,8 +9,9 @@
 
 </head>
 <body>
-    <header id="myHeader" class=header>
-        <nav class="transparent" id="navbar">
+    <header>
+        <div class="navbar-fixed">
+        <nav  id="navbar">
                 <a href="#" class="brand-logo">
                 <div id="logo">
                 </div>
@@ -21,25 +22,129 @@
                 <li><a href="#section3">Contact</a></li>
             </ul>
         </nav>
+        </div>
     </header>
 
     <main>
+        <!-- Slideshow container -->
 
         <div id="section1" class="parallax-container section scrollspy">
-            <div class="parallax"><img src="img/bg1.png"></div>
+                <div class="slideshow-container ">
+
+                    <!-- Full-width slides/quotes -->
+                    <div class="mySlides" id="test">
+                        <p class="textslide">KAN DU LEVE I EN VERDEN UDEN TEKNOLOGI</p>
+                    </div>
+
+                    <div class="mySlides">
+                        <p class="textslide">But man is not made for defeat. A man can be destroyed but not defeated.</p>
+                    </div>
+
+                    <div class="mySlides">
+                        <p class="textslide">I have not failed. I've just found 10,000 ways that won't work.</p>
+                        <div id="imgbox">
+                            <img class="bottom" src="img/earthclean.svg" />
+                            <img class="top" src="img/debris1.png" />
+                        </div>
+                    </div>
+
+                </div>
+            <!-- Dots/bullets/indicators -->
+            <div class="dot-container">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+            </div>
+
+
         </div>
 
         <div id="section2" class="row container section scrollspy">
+            <h2 id="textkon">Hvilke konsekvenser er der?</h2>
+        </div>
+
+        <div id="section3" class="parallax-container section scrollspy">
+            <div class="parallax"><img src="img/background2.jpg"></div>
+        </div>
+
+        <div id="section4" class="row container section scrollspy">
             <h2 class="header">Parallax</h2>
             <p class="grey-text text-darken-3 lighten-3">Parallax is an effect where the background content or image in this case, is moved at a different speed than the foreground content while scrolling.</p>
         </div>
 
-        <div id="section3" class="parallax-container section scrollspy">
-            <div class="parallax"><img src="img/bg2.png"></div>
+        <div id="section5" class="parallax-container section scrollspy">
+            <div class="parallax"><img src="img/background2.jpg"></div>
+        </div>
+
+        <div id="section6" class="section scrollspy">
+            <div class="junkpic" id="junkpic1"></div>
+            <h2 id="textsub">Tilmeld dig vores nyhedsbrev</h2>
+
+            <div id="emailbox">
+                <form class="col s12" id="emailfield"  >
+                    <div class="row" >
+                        <div class="input-field col s12">
+                            <input id="email" type="email" class="validate bgremove">
+                            <label for="email">Enter e-mail…</label>
+                        </div>
+                    </div>
+                </form>
+                <div id="emailbotton">Subscribe</div>
+            </div>
+            <div class="junkpic" id="junkpic2"></div>
         </div>
 
     </main>
-    <footer></footer>
+
+    <footer class="page-footer" id="fbox">
+        <div class="container" >
+            <div class="row" id="rowmargin">
+                <div class="col l2 s12">
+                    <h5 class="white-text">About Us</h5>
+                    <ul>
+                        <li><a class="grey-text text-lighten-3" href="#!">Vores virksomhed</a></li>
+                        <li><a class="grey-text text-lighten-3" href="#!">Betingelser</a></li>
+                        <li><a class="grey-text text-lighten-3" href="#!">Privatlicspolitik</a></li>
+                        <li><a class="grey-text text-lighten-3" href="#!">job</a></li>
+                    </ul>
+                </div>
+                <div class="col l2 s12">
+                    <h5 class="white-text">Support</h5>
+                    <ul>
+                        <li><a class="grey-text text-lighten-3" href="#!">Hjælp</a></li>
+                        <li><a class="grey-text text-lighten-3" href="#!">faq</a></li>
+                        <li><a class="grey-text text-lighten-3" href="#!">Sitemap</a></li>
+                        <li><a class="grey-text text-lighten-3" href="#!">Learn more</a></li>
+                    </ul>
+                </div>
+                <div class="col l5  s12">
+                    <h5 class="white-text">Kontakt</h5>
+                    <ul>
+                        <li><a class="grey-text text-lighten-3" >Storegade 133</a></li>
+                        <li><a class="grey-text text-lighten-3" >6700 Esbjerg</a></li>
+                        <li><a class="grey-text text-lighten-3" >+ 45 7777 8888/a></li>
+                        <li><a class="grey-text text-lighten-3" >spacejunk@nasa.com</a></li>
+                    </ul>
+                </div>
+                <div class="col l3 s12" id="cardmargin">
+                    <h5 class="white-text">Follow Us</h5>
+                    <ul id="imgplace">
+                        <li><a href="#!" ><img class="icon"  src="img/facebook-7-256.svg" ></a></li>
+                        <li><a href="#!" ><img class="icon" src="img/instagram-4-256.svg"></a></li>
+                        <li><a href="#!" ><img class="icon" src="img/google-plus-4-256.svg"></li>
+                        <li><a href="#!" ><img class="icon" src="img/twitter-4-256.svg"></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright white">
+            <div class="container">
+                <p id="textfooter" class="center">
+                    © SPACEJUNK BY SPACEJUNK.COM ALL RIGHT RESERVED
+                </p>
+            </div>
+        </div>
+    </footer>
 
     <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
     <script type="text/javascript" src="js/materialize.min.js"></script>
@@ -76,6 +181,51 @@
     })
    </script>
 
+    <script>
+    var slideIndex = 1;
+    showSlides(slideIndex);
+
+    function plusSlides(n) {
+    showSlides(slideIndex += n);
+    }
+
+    function currentSlide(n) {
+    showSlides(slideIndex = n);
+    }
+
+    function showSlides(n) {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("dot");
+    if (n > slides.length) {slideIndex = 1}
+    if (n < 1) {slideIndex = slides.length}
+    for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+    }
+    for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";
+    dots[slideIndex-1].className += " active";
+    }
+    </script>
+
+    <script>
+        var slideIndex = 0;
+        carousel();
+
+        function carousel() {
+            var i;
+            var x = document.getElementsByClassName("mySlides");
+            for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";
+            }
+            slideIndex++;
+            if (slideIndex > x.length) {slideIndex = 1}
+            x[slideIndex-1].style.display = "block";
+            setTimeout(carousel, 5000); // Change image every 2 secondss
+        }
+    </script>
 
 </body>
 </html>

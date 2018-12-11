@@ -1,4 +1,9 @@
-@import "quotesSlider";
+@import "section1";
+@import "section2";
+@import "section3";
+@import "section4";
+@import "section5";
+@import "section6";
 
 main
 {
@@ -8,6 +13,40 @@ main
 
 #section1
 {
-  height: 880px;
+  height: 700px;
+  background-image: url("../img/background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: -160px;
 }
 
+#section2
+{
+  height: 700px;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: 30px 60px 250px 250px 100px;
+  display: grid;
+}
+
+#section3
+{
+  height: 600px;
+}
+
+#section4
+{
+  height: 700px;
+}
+
+#section5
+{
+  height: 700px;
+}
+
+#section6
+{
+  height: 540px;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: 100px 130px 110px 100px;
+}
