@@ -17,9 +17,12 @@
                 </div>
                 </a>
             <ul id="nav-mobile" class="right hide-on-med-and-down ulmargin">
-                <li><a href="#section1">About</a></li>
-                <li><a href="#section2">Home</a></li>
-                <li><a href="#section3">Contact</a></li>
+                <li><a href="#section1">Hjem</a></li>
+                <li><a href="#section2">Konsekvens</a></li>
+                <li><a href="#section3">Info</a></li>
+                <li><a href="#section4">Kessler</a></li>
+                <li><a href="#section5">Løsning</a></li>
+                <li><a href="#section6">Nyhedsbrev</a></li>
             </ul>
         </nav>
         </div>
@@ -37,11 +40,12 @@
                     </div>
 
                     <div class="mySlides">
-                        <p class="textslide">But man is not made for defeat. A man can be destroyed but not defeated.</p>
+                        <p class="textslide">Vi HAR KURS MOD EN VERDEN UDEN SATELLITTER</p>
+                        <div id="tekbilLede"></div>
                     </div>
 
                     <div class="mySlides">
-                        <p class="textslide">I have not failed. I've just found 10,000 ways that won't work.</p>
+                        <p class="textslide">VI FANGER OS SELV</p>
                         <div id="imgbox">
                             <img class="bottom" src="img/earthclean.svg" />
                             <img class="top" src="img/debris1.png" />
@@ -59,21 +63,115 @@
 
         </div>
 
-        <div id="section2" class="row container section scrollspy">
+        <div id="section2" class="section scrollspy">
             <h2 id="textkon">Hvilke konsekvenser er der?</h2>
+            <div class="drawpic" id="dpic1"></div>
+            <div id="kbox1" class="konboxs">
+                <h5>MOBIL</h5>
+                <p>Overvej hvor ofte du bruger din mobiltelefon for at komme i
+                    kontakt med omverden eller bekendte. Den direkte kontakt
+                    man opnår ved en mobiltelefon er derfor blevet en nødvendighed.</p>
+                <div class="trashpic"></div>
+            </div>
+            <div class="drawpic" id="dpic2"></div>
+            <div id="kbox2" class="konboxs">
+                <h5>KOMMUNIKATION</h5>
+                <p>I en verden uden kommunikation kan globalisering ikke eksistere.
+                    Fred i verden, forskning, handel og import vil næsten være umuligt
+                    at opretholde</p>
+                <div class="trashpic" id="trashpic"></div>
+            </div>
+            <div class="drawpic" id="dpic3"></div>
+            <div id="kbox3" class="konboxs">
+                <h5>GPS</h5>
+                <p>Brug af GPS er en stor nødvendighed for alle. Det indebærer
+                    bl.a. post og pakker, offentlig transport, lufthavne og ikke
+                    mindst det at finde vej til lokationer.</p>
+                <div class="trashpic" id="trashpic"></div>
+            </div>
+            <div class="drawpic" id="dpic4"></div>
+            <div id="kbox4" class="konboxs">
+                <h5>INTERNET</h5>
+                <p>Internettet som er blevet til verdens bindeled er så nødvendigt
+                    at man foruden det ikke ville have: Sociale medier, online handel,
+                    informationssøgning, elektronisk post osv. listen er uendelig lang</p>
+                <div class="trashpic"></div>
+            </div>
+
         </div>
 
         <div id="section3" class="parallax-container section scrollspy">
+            <div id=graf></div>
             <div class="parallax"><img src="img/background2.jpg"></div>
         </div>
 
-        <div id="section4" class="row container section scrollspy">
-            <h2 class="header">Parallax</h2>
-            <p class="grey-text text-darken-3 lighten-3">Parallax is an effect where the background content or image in this case, is moved at a different speed than the foreground content while scrolling.</p>
+        <div id="section4" class="section scrollspy">
+            <h2 class="textkessler"id="headlineKess">KESSLER<br>SYNDROMET</h2>
+            <div id="kesslerpic"></div>
+            <div id="kesslerbox1">
+                <div class="stick"></div>
+                <span class="textkessler">Når man hører om rummissioner og NASA tænker de fleste på astronauter, rumskibe og planeter,
+                    men der findes en hel afdeling i NASA som kun omhandler overvågning af rumskrot,
+                    eller som de også kalder det space debris.
+                    Denne afdeling er blevet skabt af den tideligere forsker Donald Kessler,
+                    som fortæller om mareridt scenariet kaldet Kessler-syndromet.
+                </span>
+            </div>
+            <div id="kesslerbox2">
+                <div class="stick"></div>
+                <span class="textkessler">
+                    Kessler-syndromet går ud på at en dag grundet alt for meget rumskrot,
+                    vil to store stykker rumisenkram ramme ind i hinanden med 32.000 km/t.
+                     hvorefter de smadres i hundredevis af stykker.
+                    Disse stykker vil herefter ramme andre store stykker rumisenkram,
+                    som ikke længere er i brug, og skabe yderligere hundredevis af små stykker rumskrot.
+                    Jo mere vi sender op i rummet, jo større er risikoen for at dette scenarie opstår.
+                </span>
+            </div>
+            <div id="glasshatter">
+
+            </div>
         </div>
 
         <div id="section5" class="parallax-container section scrollspy">
-            <div class="parallax"><img src="img/background2.jpg"></div>
+            <h3 id="testheadline" class="infotext">Hvad kan vi gøre?</h3>
+             <div id="shield"></div>
+            <div id="laser"></div>
+            <div id="budskab"></div>
+            <div class="parallax">
+                <img src="img/background2.jpg">
+            </div>
+            <div id="infobox1" class="infobox">
+                <span class="infotext infosize">
+                    NASA forsøger at gøre nye satelitter mere modstandsdysgtige,
+                    for at mindske mængeden af rumskrot i fremtiden.
+                    Derfor har de meget fokus på de nye objekter man sender ud i rummet,
+                    og forsøger at designe satellitterne med mere omtanke og nye materialer,
+                    som ikke efterlader nær så meget rumskrot, som de gamle satellitter gjorde.
+                </span>
+            </div>
+
+            <div id="infobox2" class="infobox">
+                <span class="infotext infosize">
+                  En række kinesiske forsker undersøger en mere permanent løsning på problemet,
+                    ved at fokusere på hvordan de afskaffer det allerede eksisterende rumskrot.
+                    Deres teori er opbygget omkring en pulserende laser,
+                    der sender genstandene ned mod jordens atmosfære, hvorefter de brænder op.
+                    Laserens skal placeres på en satellit der sendes op i rummet,
+                    og derved vil man kunne ramme skrottet med den rette vinkel.
+                </span>
+            </div>
+
+            <div id="infobox3" class="infobox">
+                <span class="infotext infosize">
+                    NASA forsøger at gøre nye satelitter mere modstandsdysgtige,
+                    for at mindske mængeden af rumskrot i fremtiden.
+                    Derfor har de meget fokus på de nye objekter man sender ud i rummet,
+                    og forsøger at designe satellitterne med mere omtanke og nye materialer,
+                    som ikke efterlader nær så meget rumskrot, som de gamle satellitter gjorde.
+                </span>
+            </div>
+            <div id="lightbulb"></div>
         </div>
 
         <div id="section6" class="section scrollspy">
@@ -89,7 +187,9 @@
                         </div>
                     </div>
                 </form>
-                <div id="emailbotton">Subscribe</div>
+                <a href="#!">
+                    <div id="emailbotton" >Subscribe</div>
+                </a>
             </div>
             <div class="junkpic" id="junkpic2"></div>
         </div>

@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 153.201 168.797">
+  <defs>
+    <style>
+      .cls-1, .cls-4 {
+        fill: #fff;
+      }
+
+      .cls-1 {
+        stroke: #707070;
+      }
+
+      .cls-2 {
+        fill: none;
+        stroke: #fff;
+        stroke-width: 5px;
+      }
+
+      .cls-3 {
+        clip-path: url(#clip-path);
+      }
+    </style>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_42" data-name="Rectangle 42" class="cls-1" width="131" height="132.188" transform="translate(29 5439)"/>
+    </clipPath>
+  </defs>
+  <g id="Group_94" data-name="Group 94" transform="translate(-72 -5200.704)">
+    <path id="Path_162" data-name="Path 162" class="cls-2" d="M294,5564.077H462.8" transform="translate(5786.778 4906.704) rotate(90)"/>
+    <g id="Mask_Group_6" data-name="Mask Group 6" class="cls-3" transform="translate(43 -220)">
+      <g id="speaking" transform="translate(29 5447.484)">
+        <path id="Path_164" data-name="Path 164" class="cls-4" d="M99.274,35.149a4.651,4.651,0,0,0,0,6.444,31.426,31.426,0,0,1-.016,43.463,4.653,4.653,0,0,0,0,6.445,4.337,4.337,0,0,0,6.26,0,40.743,40.743,0,0,0,.016-56.347A4.336,4.336,0,0,0,99.274,35.149Z" transform="translate(-13.534 -13.63)"/>
+        <path id="Path_165" data-name="Path 165" class="cls-4" d="M80.074,49.883a4.651,4.651,0,0,0,0,6.444,12.526,12.526,0,0,1,0,17.322,4.652,4.652,0,0,0,0,6.445,4.337,4.337,0,0,0,6.26,0,21.842,21.842,0,0,0,0-30.206A4.336,4.336,0,0,0,80.074,49.883Z" transform="translate(-10.884 -15.293)"/>
+        <path id="Path_166" data-name="Path 166" class="cls-4" d="M128.271,12.4a4.337,4.337,0,0,0-6.26,0,4.652,4.652,0,0,0,0,6.445c22.431,23.1,22.421,60.709-.023,83.824a4.653,4.653,0,0,0,0,6.445,4.337,4.337,0,0,0,6.26,0C154.141,82.44,154.151,39.056,128.271,12.4Z" transform="translate(-16.674 -11.063)"/>
+        <path id="Path_167" data-name="Path 167" class="cls-4" d="M32.205,94.465c11.381-.807,20.4-10.6,20.4-22.532,0-12.458-9.835-22.592-21.923-22.592S8.761,59.476,8.761,71.933c0,11.931,9.022,21.724,20.4,22.532-8.521.337-16.026,3.507-21.257,9.018-5.374,5.661-8.1,13.5-7.9,22.669A4.49,4.49,0,0,0,4.437,130.6H56.93a4.49,4.49,0,0,0,4.425-4.452c.207-9.17-2.525-17.009-7.9-22.67C48.227,97.971,40.725,94.8,32.205,94.465Z" transform="translate(0 -15.382)"/>
+      </g>
+    </g>
+  </g>
+</svg>

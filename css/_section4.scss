@@ -1,0 +1,84 @@
+@import "variable";
+
+.textkessler
+{
+  color: colors(fc3);
+  font-family: $font;
+}
+
+#headlineKess
+{
+  grid-column: 1/4;
+  grid-row: 2/3;
+  margin-top: 0;
+  margin-left: 30px;
+  font-weight: bold;
+  font-size: 66px;
+}
+
+#kesslerpic
+{
+  height: 260px;
+  margin-top: 10px;
+  grid-row: 2/3;
+  grid-column: 6/8;
+  background-image: url("../img/Skærmbillede 2018-12-06 kl. 13.32.40.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#kesslerbox1
+{
+  padding: 10px;
+  font-size: 19px;
+  grid-column: 8/12;
+  grid-row: 2/3;
+}
+
+.stick
+{
+  height: 5px;
+  width: 50%;
+  margin-bottom: 10px;
+  background-image: url("../img/stick.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#kesslerbox2
+{
+  padding: 10px;
+  font-size: 19px;
+  grid-column: 8/12;
+  grid-row: 3/4;
+}
+
+#glasshatter
+{
+  grid-column: 1/8;
+  grid-row: 3/5;
+
+  background-image: url("../img/glasshatter.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+@media only screen and (max-width: 1200px)
+{
+  #headlineKess
+  {
+    font-size: 55px;
+  }
+
+  #kesslerbox1
+  {
+    font-size: 14px;
+  }
+
+  #kesslerbox2
+  {
+
+    font-size: 14px;
+  }
+
+}

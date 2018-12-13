@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 92.694 99.231">
+  <defs>
+    <style>
+      .cls-1, .cls-3 {
+        fill: #013b46;
+      }
+
+      .cls-1 {
+        stroke: #707070;
+      }
+
+      .cls-2 {
+        clip-path: url(#clip-path);
+      }
+    </style>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_23" data-name="Rectangle 23" class="cls-1" width="92.694" height="99.231" transform="translate(190 1250)"/>
+    </clipPath>
+  </defs>
+  <g id="Mask_Group_1" data-name="Mask Group 1" class="cls-2" transform="translate(-190 -1250)">
+    <g id="smartphone" transform="translate(190 1254.396)">
+      <g id="Group_42" data-name="Group 42" transform="translate(0)">
+        <g id="Group_41" data-name="Group 41">
+          <ellipse id="Ellipse_9" data-name="Ellipse 9" class="cls-3" cx="3.621" cy="3.533" rx="3.621" ry="3.533" transform="translate(42.727 64.624)"/>
+          <path id="Path_87" data-name="Path 87" class="cls-3" d="M75.374,32.759h-20.2a1.988,1.988,0,0,0-2.054,1.909V71.926a1.987,1.987,0,0,0,2.054,1.909h20.2a1.988,1.988,0,0,0,2.054-1.909V34.668A1.988,1.988,0,0,0,75.374,32.759Z" transform="translate(-18.926 -12.185)"/>
+          <path id="Path_88" data-name="Path 88" class="cls-3" d="M46.346,0C20.75,0,0,20.246,0,45.218s20.75,45.22,46.346,45.22,46.348-20.247,46.348-45.22S71.942,0,46.346,0ZM64.378,67.534a6.335,6.335,0,0,1-6.411,6.255H34.727a6.335,6.335,0,0,1-6.411-6.255V22.707a6.335,6.335,0,0,1,6.411-6.255h23.24a6.335,6.335,0,0,1,6.411,6.255Z" transform="translate(0)"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
