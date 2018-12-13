@@ -72,8 +72,9 @@ a:hover {
 
 .textslide {
   font-family: "Montserrat", sans-serif;
-  font-size: 60px;
+  font-size: 51px;
   color: #ffffff;
+  font-weight: bold;
 }
 
 #imgbox {
@@ -117,7 +118,7 @@ a:hover {
 #tekbilLede {
   height: 450px;
   width: 450px;
-  margin-left: 30%;
+  margin-left: 35%;
   background-image: url("../img/TEKNOLOGI.svg");
   background-size: contain;
   background-repeat: no-repeat;
@@ -145,6 +146,7 @@ a:hover {
   text-align: center;
   grid-column: 1/13;
   grid-row: 1/2;
+  font-weight: bold;
 }
 
 .konboxs {
@@ -357,6 +359,7 @@ a:hover {
 #testheadline {
   grid-column: 2/6;
   grid-row: 2/3;
+  font-weight: bold;
 }
 
 #shield {
@@ -454,6 +457,7 @@ a:hover {
   text-align: center;
   font-family: "Montserrat", sans-serif;
   color: #19343F;
+  font-weight: bold;
 }
 
 #emailbox {
@@ -469,6 +473,8 @@ a:hover {
   width: 480px;
   border: solid 1px #000000;
   border-radius: 50px 0 0 50px;
+  padding: 10px;
+  padding-left: 20px;
 }
 
 #emailbotton {
