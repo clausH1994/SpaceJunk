@@ -118,8 +118,8 @@ a:hover {
 #tekbilLede {
   height: 450px;
   width: 450px;
-  margin-left: 35%;
-  background-image: url("../img/TEKNOLOGI.svg");
+  margin-left: 32%;
+  background-image: url("../img/forsidepic.svg");
   background-size: contain;
   background-repeat: no-repeat;
 }
@@ -283,7 +283,7 @@ a:hover {
 #graf {
   grid-column: 1/13;
   grid-row: 1/2;
-  background-image: url("../img/Asset 1.svg");
+  background-image: url("../img/Infographic-SVG.svg");
   background-repeat: no-repeat;
   background-size: contain;
 }
