@@ -283,7 +283,7 @@ a:hover {
 #graf {
   grid-column: 2/13;
   grid-row: 2/3;
-  background-image: url("../img/Infographic-SVG.svg");
+  background-image: url("../img/Infographic.svg");
   background-repeat: no-repeat;
   background-size: contain;
 }
