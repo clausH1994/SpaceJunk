@@ -14,7 +14,7 @@ main
 #section1
 {
   height: 700px;
-  background-image: url("../img/background.jpg");
+  background-image: url("../img/background2.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position-y: -160px;
@@ -35,7 +35,7 @@ main
 
   display: grid;
   grid-template-columns: repeat(12, 1fr);
-  grid-template-rows: 1fr;
+  grid-template-rows:150px 1fr;
 }
 
 #section4
