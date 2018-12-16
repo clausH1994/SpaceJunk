@@ -77,14 +77,14 @@ a:hover {
   font-weight: bold;
 }
 
-#imgbox {
+.imgbox {
   position: relative;
-  height: 350px;
-  width: 350px;
+  height: 400px;
+  width: 400px;
   margin: 0 auto;
 }
 
-#imgbox img {
+.imgbox img {
   position: absolute;
   left: 0;
 }
@@ -115,11 +115,21 @@ a:hover {
     opacity: 1;
   }
 }
+#frontimg {
+  height: 550px;
+  width: 550px;
+  margin-left: 16%;
+  background-position-y: -175px;
+  background-image: url("../img/brokesatellitt.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
 #tekbilLede {
   height: 450px;
   width: 450px;
   margin-left: 32%;
-  background-image: url("../img/forsidepic.svg");
+  background-image: url("../img/ingenteknologi.svg");
   background-size: contain;
   background-repeat: no-repeat;
 }
@@ -131,13 +141,25 @@ a:hover {
 
   .textslide {
     font-family: "Montserrat", sans-serif;
-    font-size: 20px;
+    font-size: 30px;
     color: #ffffff;
+  }
+
+  #tekbilLede {
+    margin-left: 29%;
+  }
+
+  #frontimg {
+    margin-left: 11%;
   }
 }
 @media only screen and (max-width: 1000px) {
   #tekbilLede {
-    margin-left: 25%;
+    margin-left: 23%;
+  }
+
+  #frontimg {
+    background-position-x: -70px;
   }
 }
 #textkon {
@@ -150,76 +172,46 @@ a:hover {
 }
 
 .konboxs {
-  width: 500px;
-  height: 200px;
-  background-image: url("../img/Rectangle.svg");
-  background-repeat: no-repeat;
-  background-size: cover;
+  width: 600px;
+  height: 250px;
   font-family: "Montserrat", sans-serif;
   color: #ffffff;
-  padding: 20px;
+  padding: 55px;
+  padding-left: 80px;
 }
 
 #kbox1 {
-  grid-column: 2/5;
+  grid-column: 1/5;
   grid-row: 3/4;
+  margin-left: 20px;
+  background-image: url("../img/greenbar1.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 #kbox2 {
-  grid-column: 8/12;
+  grid-column: 7/12;
   grid-row: 3/4;
+  background-image: url("../img/greenbar2.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 #kbox3 {
-  grid-column: 2/5;
+  grid-column: 1/5;
   grid-row: 5/6;
+  margin-left: 20px;
+  background-image: url("../img/greenbar3.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 #kbox4 {
-  grid-column: 8/12;
+  grid-column: 7/12;
   grid-row: 5/6;
-}
-
-.drawpic {
-  width: 90px;
-  height: 100px;
-  margin-left: 40%;
-}
-
-#dpic1 {
-  grid-column: 1/2;
-  grid-row: 2/4;
-  background-image: url("../img/mobil.svg");
+  background-image: url("../img/greenbar4.svg");
   background-repeat: no-repeat;
-  background-size: contain;
-  z-index: 1;
-}
-
-#dpic2 {
-  grid-column: 7/8;
-  grid-row: 2/4;
-  background-image: url("../img/KOMMUNIKATION.svg");
-  background-repeat: no-repeat;
-  background-size: contain;
-  z-index: 1;
-}
-
-#dpic3 {
-  grid-column: 1/2;
-  grid-row: 4/5;
-  background-image: url("../img/gps.svg");
-  background-repeat: no-repeat;
-  background-size: contain;
-  z-index: 1;
-}
-
-#dpic4 {
-  grid-column: 7/8;
-  grid-row: 4/5;
-  background-image: url("../img/wifi.svg");
-  background-repeat: no-repeat;
-  background-size: contain;
-  z-index: 1;
+  background-size: cover;
 }
 
 .trashpic {
@@ -231,53 +223,32 @@ a:hover {
 }
 
 .trashpicMargin {
-  margin-top: 30px;
+  margin-top: 40px;
   margin-left: -15px;
 }
 
 @media only screen and (max-width: 1200px) {
   #kbox1 {
-    grid-column: 5/8;
+    grid-column: 3/8;
     grid-row: 3/4;
   }
 
   #kbox2 {
-    grid-column: 5/8;
+    grid-column: 3/8;
     grid-row: 5/6;
+    margin-left: 22px;
   }
 
   #kbox3 {
-    grid-column: 5/8;
+    grid-column: 3/8;
     grid-row: 7/8;
+    margin-left: 22px;
   }
 
   #kbox4 {
-    grid-column: 5/8;
+    grid-column: 3/8;
     grid-row: 9/10;
-  }
-
-  #dpic1 {
-    grid-column: 4/5;
-    grid-row: 2/4;
-  }
-
-  #dpic2 {
-    grid-column: 4/5;
-    grid-row: 4/6;
-  }
-
-  #dpic3 {
-    grid-column: 4/5;
-    grid-row: 6/8;
-  }
-
-  #dpic4 {
-    grid-column: 4/5;
-    grid-row: 8/10;
-  }
-
-  .drawpic {
-    margin-left: 30%;
+    margin-left: 22px;
   }
 }
 #graf {
@@ -579,9 +550,6 @@ main {
   #section3 {
     height: 1260px;
     padding: 50px;
-    display: grid;
-    grid-template-columns: repeat(12, 1fr);
-    grid-template-rows: 1fr;
   }
 
   #section5 {

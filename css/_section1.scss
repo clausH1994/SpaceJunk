@@ -50,15 +50,15 @@
   font-weight: bold;
 }
 
-#imgbox {
+.imgbox {
   position:relative;
-  height:350px;
-  width:350px;
+  height:400px;
+  width:400px;
   margin:0 auto;
 
 }
 
-#imgbox img {
+.imgbox img {
   position:absolute;
   left:0;
 }
@@ -91,6 +91,19 @@
   }
 }
 
+#frontimg
+{
+  height:550px;
+  width:550px;
+
+  margin-left: 16%;
+
+  background-position-y: -175px;
+  background-image: url("../img/brokesatellitt.svg");
+  background-size:cover;
+  background-repeat: no-repeat;
+}
+
 #tekbilLede
 {
 
@@ -99,7 +112,7 @@
 
   margin-left: 32%;
 
-  background-image: url("../img/forsidepic.svg");
+  background-image: url("../img/ingenteknologi.svg");
   background-size: contain;
   background-repeat: no-repeat;
 }
@@ -113,8 +126,18 @@
   .textslide
   {
     font-family: $font;
-    font-size: 20px;
+    font-size: 30px;
     color: #ffffff;
+  }
+
+  #tekbilLede
+  {
+    margin-left: 29%;
+  }
+
+  #frontimg
+  {
+    margin-left: 11%;
   }
 
 }
@@ -123,6 +146,11 @@
 {
   #tekbilLede
   {
-    margin-left: 25%;
+    margin-left: 23%;
+  }
+
+  #frontimg
+  {
+    background-position-x:-70px;
   }
 }

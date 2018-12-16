@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 854.142 285.981">
+  <defs>
+    <style>
+      .cls-1, .cls-4, .cls-5 {
+        fill: #013b47;
+      }
+
+      .cls-1 {
+        stroke: #707070;
+      }
+
+      .cls-2 {
+        fill: url(#linear-gradient);
+      }
+
+      .cls-3 {
+        clip-path: url(#clip-path);
+      }
+
+      .cls-5 {
+        stroke: #0a595e;
+        stroke-width: 4px;
+      }
+    </style>
+    <linearGradient id="linear-gradient" y1="-0.206" x2="1.192" y2="1.39" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#013c48"/>
+      <stop offset="1" stop-color="#000c0e"/>
+    </linearGradient>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_25" data-name="Rectangle 25" class="cls-1" width="97.727" height="90.381" transform="translate(558 1393)"/>
+    </clipPath>
+  </defs>
+  <g id="Group_94" data-name="Group 94" transform="translate(-971.273 -1274.619)">
+    <rect id="Rectangle_33" data-name="Rectangle 33" class="cls-2" width="776.715" height="230.6" transform="translate(1048.7 1330)"/>
+    <g id="Group_50" data-name="Group 50" transform="translate(-87 -27)">
+      <g id="Mask_Group_3" data-name="Mask Group 3" class="cls-3" transform="translate(500.273 -91.381)">
+        <g id="speech-bubble-3" transform="translate(562.149 1393)">
+          <g id="Group_44" data-name="Group 44">
+            <path id="Path_90" data-name="Path 90" class="cls-4" d="M44.715,0C20.02,0,0,20.233,0,45.191S20.02,90.381,44.715,90.381,89.43,70.148,89.43,45.191,69.409,0,44.715,0Zm0,70.584a31.79,31.79,0,0,1-14.48-3.429c-1.141.923-6.3,4.749-11.421,2.959A11.411,11.411,0,0,0,22.4,61.3a23.509,23.509,0,0,1-6.549-16.105c0-14.025,12.924-25.4,28.866-25.4s28.866,11.37,28.866,25.4S60.657,70.584,44.715,70.584Z"/>
+          </g>
+        </g>
+      </g>
+      <path id="Path_93" data-name="Path 93" class="cls-5" d="M553.511,1323.912H582" transform="translate(539 27)"/>
+      <path id="Path_94" data-name="Path 94" class="cls-5" d="M553.511,1323.912H582" transform="translate(539 18)"/>
+    </g>
+  </g>
+</svg>
